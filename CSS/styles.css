@@ -210,3 +210,68 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+/* -------------- RESPONSIVE DESIGN ------------- */
+/* Responsive for mobile devices */
+@media (max-width: 576px){
+    header, section, footer {
+        padding: 0 5rem;
+    }
+
+    header nav .logo h1 {
+        font-size: 2rem;
+    }
+
+    header nav .menu a {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-section .hero-content {
+        order: 2;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .hero-section .hero-content h1 {
+        font-size: 2rem;
+        width: 100%;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-section .hero-content p {
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .hero-section .hero-img {
+        width: 100%;
+    }
+
+    .hero-section .hero-img img {
+        width: 100%;
+    }
+
+    .products-section .section-title {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .products-section .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+
+}
