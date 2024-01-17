@@ -1,0 +1,79 @@
+/* --------- GOOGLE FONT ------------ */
+
+
+
+/* --------- CSS RESET ------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* --------- CSS VARIABLES ------------ */
+
+
+
+
+/* --------- CSS REUSE STYLES ------------ */
+
+h1,h2,h3 {
+    color: aliceblue;
+}
+
+p, li, a, button {
+    color: #888888;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-size: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+
+}
+
+
+/* --------- HEADER SECTION ------------ */
+
+
+
+
+/* --------- MAIN SECTION ------------ */
+
+
+
+
+/* --------- FOOTER SECTION ------------ */
